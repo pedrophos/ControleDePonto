@@ -15,13 +15,14 @@ object TelaBase: TTelaBase
   TextHeight = 14
   object pnlTopMenu: TPanel
     Left = 0
-    Top = 31
+    Top = 0
     Width = 1008
     Height = 70
     Align = alTop
     Color = clNavy
     ParentBackground = False
     TabOrder = 0
+    ExplicitTop = 31
   end
   object pnlBottom: TPanel
     Left = 0
@@ -35,40 +36,14 @@ object TelaBase: TTelaBase
   end
   object pnlCentro: TPanel
     Left = 0
-    Top = 101
+    Top = 70
     Width = 1008
-    Height = 558
+    Height = 589
     Align = alClient
     Color = clWhite
     ParentBackground = False
     TabOrder = 2
-  end
-  object pnlTitulo: TPanel
-    Left = 0
-    Top = 0
-    Width = 1008
-    Height = 31
-    Align = alTop
-    Color = clBlack
-    ParentBackground = False
-    TabOrder = 3
-    object lblTitulo: TLabel
-      AlignWithMargins = True
-      Left = 4
-      Top = 4
-      Width = 1000
-      Height = 16
-      Align = alTop
-      Alignment = taCenter
-      Caption = 'Titulo da Janela'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWhite
-      Font.Height = -13
-      Font.Name = 'Arial'
-      Font.Style = [fsBold]
-      ParentFont = False
-      Layout = tlCenter
-      ExplicitWidth = 103
-    end
+    ExplicitTop = 101
+    ExplicitHeight = 558
   end
 end

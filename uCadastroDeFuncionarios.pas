@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uBaseTela, Vcl.StdCtrls, Vcl.ExtCtrls,
-  Vcl.Mask, Vcl.DBCtrls;
+  Vcl.Mask, Vcl.DBCtrls, dxGDIPlusClasses;
 
 type
   TfrmCadastroFuncionarios = class(TTelaBase)
@@ -29,6 +29,15 @@ type
     lblContratacao: TLabel;
     DBEdit7: TDBEdit;
     Label5: TLabel;
+    DBEdit8: TDBEdit;
+    Label6: TLabel;
+    DBEdit9: TDBEdit;
+    Label7: TLabel;
+    DBEdit10: TDBEdit;
+    Label8: TLabel;
+    pnlBiometria: TPanel;
+    Image1: TImage;
+    dbcAtivo: TDBCheckBox;
   private
     { Private declarations }
   public
@@ -39,6 +48,9 @@ var
   frmCadastroFuncionarios: TfrmCadastroFuncionarios;
 
 implementation
+
+uses
+  uDmFuncionarios;
 
 {$R *.dfm}
 

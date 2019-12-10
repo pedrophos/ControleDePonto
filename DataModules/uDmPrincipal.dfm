@@ -4,7 +4,7 @@ object dmPrincipal: TdmPrincipal
   Width = 495
   object con: TFDConnection
     Params.Strings = (
-      'Database=D:\Projetos\Delphi\ControleDePonto\Database\Ponto.FDB'
+      'Database=E:\Projetos\Delphi\ControleDePonto\Database\Ponto.FDB'
       'User_Name=sysdba'
       'Password=masterkey'
       'DriverID=FB')

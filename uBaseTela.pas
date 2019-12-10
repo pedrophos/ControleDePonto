@@ -11,8 +11,6 @@ type
     pnlTopMenu: TPanel;
     pnlBottom: TPanel;
     pnlCentro: TPanel;
-    pnlTitulo: TPanel;
-    lblTitulo: TLabel;
   private
     { Private declarations }
   public
